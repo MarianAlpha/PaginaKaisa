@@ -34,7 +34,7 @@ header
 
 <form>
     <button>Log in<>
-    <button> Registro
+    <button> Registro 
 nav
 section (izq)
     article (subdividir section)
