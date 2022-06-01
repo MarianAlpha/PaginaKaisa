@@ -42,3 +42,20 @@ aside (Derecha): se utiliza para barras laterales, publicidad
 div 
 footer: Pie de pagina, esta en todas las paginas
 figure: img, caption (subtitulo)
+
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/watch?v=3pP-Mp0cviU"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+    <br />
+
+    <small>Kai'sa luchando contra el vacío</small>
+
+    <audio src="./void.mp3" type = "audio/mpeg" autoplay="1"></audio>
