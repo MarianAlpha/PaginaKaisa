@@ -7,227 +7,547 @@
     <title>Kai'sa</title>
   </head>
   <body>
-
+    <!--Cabecera-->
     <header>
-        <nav>                                                            <!--Menu de navegacion-->    
-            <a href="./index.html">Inicio</a>                             <!--Redirige al inicio-->
-            <a href="./registro.html">Registro</a>                        <!--Redirige al registro-->
-            <a href="./historia.html">Historia</a>                        <!--Redirige a la historia-->
-            <a href="./more.html">Mas Historias</a>                            <!--Redirige a la region-->
-            <a href="./alteruniverse.html">Universos Alternos</a>         <!--Redirige a los universos-->
-          </nav>
-        <img src="./logo.png" alt="logo" height="60" width="60" vspace="10"/>                  <!--Añade el logo-->
-    
-        <h1>Kai'sa, La Hija del Vacio</h1>                                          <!--Añade el titulo-->
+      <!--Etiqueta semantica para añadir imagen-->
+      <figure>
+        <!--Añade el logo-->
+        <img
+          src="./Multimedia/logo.png"
+          alt="logo"
+          height="60"
+          width="60"
+          vspace="10"
+        />
+      </figure>
+
+      <!--Formulario para registrarse-->
+      <form>
+        <button><a href="./registro.html">sign up</a></button>
+        <input type="search" name="palabraclave" />
+        <input type="submit" name="buscar" />
+      </form>
+
+      <!--Menu de navegacion-->
+      <nav>
+        <li>
+          <!--Redirige al inicio-->
+          <a href="./index.html">Inicio</a>
+        </li>
+        <li>
+          <!--Redirige al registro-->
+          <a href="./registro.html">Registro</a>
+        </li>
+        <li>
+          <!--Redirige a la historia-->
+          <a href="./historia.html">Historia</a>
+        </li>
+        <li>
+          <!--Redirige a mas historias-->
+          <a href="./more.html">Mas Historias</a>
+        </li>
+        <li>
+          <!--Redirige a los universos-->
+          <a href="./alteruniverse.html">Universos Alternos</a>
+        </li>
+      </nav>
+
+      <!--Añade el titulo-->
+      <h1>Kai'sa, La Hija del Vacio</h1>
     </header>
 
+    <!--Seccion para las historias-->
     <section>
-      <h2>HISTORIAS</h2>
-      <a href=#LCR>
-        <h4>LA CHICA QUE REGRESÓ</h4>
-        <img src="./historia1.jpg" alt="hist1" height="306" width="700">
-      </a>
+      <div>
+        <h2>HISTORIAS</h2>
+        <h4>Click en la imagen para ir a la historia</h4>
+        <a href="#LCR">
+          <img
+            src="./Multimedia/historia1.jpg"
+            alt="hist1"
+            height="306"
+            width="700"
+          />
+        </a>
 
-      <a href=#UPV>
-        <h4>UNIDAS POR EL VACÍO</h4>
-        <img src="./historia2.jpg" alt="hist2" height="306" width="544">
-      </a>
-      <br>
-      <br>
+        <a href="#UPV">
+          <img
+            src="./Multimedia/historia2.jpg"
+            alt="hist2"
+            height="306"
+            width="544"
+          />
+        </a>
+      </div>
       
-      <h2 id="LCR">LA CHICA QUE REGRESÓ</h2>
-      <h4>POR MICHAEL MACCARTHY</h4>
-      <img src="./intro-divider-1.png" alt="divider1">
-      <p>
-          ''Escúchame'', le digo a la chica que me encontró aquí, a un lado del foso. ''Necesito que me escuches. No tenemos mucho tiempo''. <br>
+      <br />
+      <br />
 
-          Se inclina hacia delante, sin ningún rastro de miedo en sus ojos. ''Dime qué debo hacer''. <br>
+      <!--Primera historia-->
+      <article>
+        <!--Titulo de la histtoria-->
+        <h2 id="LCR">LA CHICA QUE REGRESÓ</h2>
+        <!--Autor-->
+        <h4>POR MICHAEL MACCARTHY</h4>
 
-          Me agrada. Una débil sonrisa se dibuja en mi rostro, por primera vez en lo que parece haber sido... una eternidad. ''Así no'', le digo mientras señalo la flecha que tiene en su mano. La sostiene como si fuera una lanza. <br>
+        <!--Imagen Divisor 1-->
+        <figure>
+          <img src="./Multimedia/intro-divider-1.png" alt="divider1" />
+        </figure>
+        <p>
+          ''Escúchame'', le digo a la chica que me encontró aquí, a un lado del
+          foso. ''Necesito que me escuches. No tenemos mucho tiempo''. <br />
 
-          Apenas era una niña cuando el Vacío me arrebató a mi familia; yo tampoco sabía lo que hacía. Pero los demás fueron muy imprudentes. Sacrificios, ofrendas, tributos... no importa el nombre, nunca iban a dar resultado. No es un dios apaciguado por regalos y oraciones. Solo quiere devorarlo todo. <br>
+          Se inclina hacia delante, sin ningún rastro de miedo en sus ojos.
+          ''Dime qué debo hacer''. <br />
 
-          ''¿Quieres asesinarlo? ¿Quieres destruirlo?'', le pregunto a la chica. <br>
+          Me agrada. Una débil sonrisa se dibuja en mi rostro, por primera vez
+          en lo que parece haber sido... una eternidad. ''Así no'', le digo
+          mientras señalo la flecha que tiene en su mano. La sostiene como si
+          fuera una lanza. <br />
 
-          Ella asiente. <br>
+          Apenas era una niña cuando el Vacío me arrebató a mi familia; yo
+          tampoco sabía lo que hacía. Pero los demás fueron muy imprudentes.
+          Sacrificios, ofrendas, tributos... no importa el nombre, nunca iban a
+          dar resultado. No es un dios apaciguado por regalos y oraciones. Solo
+          quiere devorarlo todo. <br />
 
-          ''Entonces, mátalo de hambre''. <br>
+          ''¿Quieres asesinarlo? ¿Quieres destruirlo?'', le pregunto a la chica.
+          <br />
 
-          La sensación de agujas en mi piel se hace más fuerte, como una reacción a estas palabras. La presencia amenazante se aproxima más hacia nosotras, mi segunda piel se contrae, tensándose como la cuerda de un arco. Respiro profundamente una vez más antes de su llegada. <br>
+          Ella asiente. <br />
 
-          La arena comienza a desplazarse, contrayéndose y derramándose, como en un reloj de arena. Escalofriantes pulsos de luz se filtran hacia el cielo conforme las criaturas emergen en la noche shurimana, profiriendo alaridos y babeando. Comienzo a cargar energía dentro de las cápsulas de mis hombros para prepararme. <br>
+          ''Entonces, mátalo de hambre''. <br />
 
-          Aprieto mis dientes, y la dejo salir. <br>
+          La sensación de agujas en mi piel se hace más fuerte, como una
+          reacción a estas palabras. La presencia amenazante se aproxima más
+          hacia nosotras, mi segunda piel se contrae, tensándose como la cuerda
+          de un arco. Respiro profundamente una vez más antes de su llegada.
+          <br />
 
-          Brotes brillantes de calor y dolor encuentran a sus objetivos rápidamente y caen sobre las criaturas, deteniéndolas en seco y lanzándolas por los aires. El aire está lleno de un hedor ácido y del silbido de quitina derritiéndose. <br>
+          La arena comienza a desplazarse, contrayéndose y derramándose, como en
+          un reloj de arena. Escalofriantes pulsos de luz se filtran hacia el
+          cielo conforme las criaturas emergen en la noche shurimana,
+          profiriendo alaridos y babeando. Comienzo a cargar energía dentro de
+          las cápsulas de mis hombros para prepararme. <br />
 
-          Pronto, no queda ninguna de ellas. Aguardo a que el escozor de las agujas se detenga, pero no ocurre. <br>
+          Aprieto mis dientes, y la dejo salir. <br />
 
-          La chica está en cuclillas a mi lado, preparada. Tal vez no pueda comprender qué es lo que está viendo. <br>
+          Brotes brillantes de calor y dolor encuentran a sus objetivos
+          rápidamente y caen sobre las criaturas, deteniéndolas en seco y
+          lanzándolas por los aires. El aire está lleno de un hedor ácido y del
+          silbido de quitina derritiéndose. <br />
 
-          ''¿Te duele?'', me susurra mientras acerca su mano a las escamas brillantes de mi brazo. <br>
+          Pronto, no queda ninguna de ellas. Aguardo a que el escozor de las
+          agujas se detenga, pero no ocurre. <br />
 
-          Lo retiro por reflejo. Ella ni siquiera parpadea. <br>
+          La chica está en cuclillas a mi lado, preparada. Tal vez no pueda
+          comprender qué es lo que está viendo. <br />
 
-          ''A veces'', confieso. <br>
+          ''¿Te duele?'', me susurra mientras acerca su mano a las escamas
+          brillantes de mi brazo. <br />
 
-          No muy lejos de ahí, gran parte de su aldea duerme desprevenida. Sin duda, la curiosidad sacó lo mejor de esta pequeña. Tantas historias, fábulas de terror y de fantasía sobre las bestias del Vacío, cazando en el silencio de la noche y llamándose entre ellas. <br>
+          Lo retiro por reflejo. Ella ni siquiera parpadea. <br />
 
-          Ella solo quería verlo por sí misma. Quería ver qué acecha más allá de las rocas, ver a lo que su gente le teme y, al mismo tiempo, venera. <br>
+          ''A veces'', confieso. <br />
 
-          Mi piel se vuelve a tensar. Los alfileres, el escozor constante... <br>
- 
-          Abro y cierro los ojos. ''No me dijiste cuál es tu nombre.'' <br>
+          No muy lejos de ahí, gran parte de su aldea duerme desprevenida. Sin
+          duda, la curiosidad sacó lo mejor de esta pequeña. Tantas historias,
+          fábulas de terror y de fantasía sobre las bestias del Vacío, cazando
+          en el silencio de la noche y llamándose entre ellas. <br />
 
-          Se pone de pie orgullosa, con la flecha aún en su mano. ''Me llamo Illi. Vine para proteger a mi familia del monstruo''. No tiene más de diez años de edad. <br>
+          Ella solo quería verlo por sí misma. Quería ver qué acecha más allá de
+          las rocas, ver a lo que su gente le teme y, al mismo tiempo, venera.
+          <br />
 
-          ''Bueno, Illi, algunas veces huir es la mejor opción''. <br>
+          Mi piel se vuelve a tensar. Los alfileres, el escozor constante...
+          <br />
 
-          ''Pero tú no huyes'', dice ella, entrecerrando los ojos, ''¿O sí?'' <br>
+          Abro y cierro los ojos. ''No me dijiste cuál es tu nombre.'' <br />
 
-          Una chica lista. Negué con la cabeza. ''Ya no más''. <br>
+          Se pone de pie orgullosa, con la flecha aún en su mano. ''Me llamo
+          Illi. Vine para proteger a mi familia del monstruo''. No tiene más de
+          diez años de edad. <br />
 
-          ''¡Entonces yo tampoco lo haré!'', proclama Illi. Valiente, además. <br>
+          ''Bueno, Illi, algunas veces huir es la mejor opción''. <br />
 
-          No tiene idea de a lo que se enfrentan. Ninguno de ellos la tiene. Todas las cosas que su gente había hecho para deshacerse de las criaturas solo lograban incitarlas más. <br>
+          ''Pero tú no huyes'', dice ella, entrecerrando los ojos, ''¿O sí?''
+          <br />
 
-          ''Debes decirles, Illi. Debes hacer que lo comprendan. No más bailes bajo la luna nueva. Y no más animales atados a palos. El Vacío no es piadoso; o se alimenta o muere''. <br>
- 
-          El día que comprendí esto fue cuando descubrí que tenía una oportunidad. Tal vez fue por eso que sobreviví, mientras que muchos otros perecieron. <br>
+          Una chica lista. Negué con la cabeza. ''Ya no más''. <br />
 
-          Pero la supervivencia siempre tiene un precio. Lo he estado pagando desde que encontré el camino de regreso. <br>
+          ''¡Entonces yo tampoco lo haré!'', proclama Illi. Valiente, además.
+          <br />
 
-          ''Mira...'', la niña susurra. ''Vienen por nosotros''. <br>
+          No tiene idea de a lo que se enfrentan. Ninguno de ellos la tiene.
+          Todas las cosas que su gente había hecho para deshacerse de las
+          criaturas solo lograban incitarlas más. <br />
 
-          No necesito mirar. Sabía que vendrían. Por instinto, la coraza cubre mi rostro. Illi me observa fijamente. <br>
+          ''Debes decirles, Illi. Debes hacer que lo comprendan. No más bailes
+          bajo la luna nueva. Y no más animales atados a palos. El Vacío no es
+          piadoso; o se alimenta o muere''. <br />
 
-          ''No tengas miedo'', le digo con un tono de voz tan retorcido y monstruoso que podría estar diciéndole justo lo contrario. <br>
+          El día que comprendí esto fue cuando descubrí que tenía una
+          oportunidad. Tal vez fue por eso que sobreviví, mientras que muchos
+          otros perecieron.
+          <br />
 
-          ''¿De qué?'', pregunta. Esbozo una sonrisa que ella no puede ver. <br>
+          Pero la supervivencia siempre tiene un precio. Lo he estado pagando
+          desde que encontré el camino de regreso. <br />
 
-          Solo hay unas cuantas personas que han visto mi piel, o lo que sea que ahora cubra mi cuerpo. Todos excepto dos de ellos están muertos. <br>
+          ''Mira...'', la niña susurra. ''Vienen por nosotros''. <br />
 
-          La gente de Illi parecen ser cazadores hábiles. Solo los hábiles sobreviven. Puedo comprender de dónde proviene su valentía. Sus antorchas brillan en la noche. <br>
+          No necesito mirar. Sabía que vendrían. Por instinto, la coraza cubre
+          mi rostro. Illi me observa fijamente. <br />
 
-          ''¡Papá!'', gritó de repente hacia los aldeanos. ''¡La encontré! ¡La chica que regresó!'' <br>
+          ''No tengas miedo'', le digo con un tono de voz tan retorcido y
+          monstruoso que podría estar diciéndole justo lo contrario. <br />
 
-          Se dirigen hacia nosotros ahora, con las armas preparadas y fuego en sus ojos. ''¡Illi!'', grita su padre, colocando una flecha en su arco. ''¡Aléjate de esa... cosa!'' <br>
+          ''¿De qué?'', pregunta. Esbozo una sonrisa que ella no puede ver.
+          <br />
 
-          Me voltea a ver, confundida. Por cada chica como Illi, hay otras diez que correrían lo más lejos posible de mí. O peor aún. Sé lo que dice la mayoría de las personas sobre mí. He visto su miedo garabateado en las paredes de barro, grabado en las rocas del barranco. <br>
+          Solo hay unas cuantas personas que han visto mi piel, o lo que sea que
+          ahora cubra mi cuerpo. Todos excepto dos de ellos están muertos.
+          <br />
 
-          Cuidado con la chica que regresó como un monstruo. <br>
+          La gente de Illi parecen ser cazadores hábiles. Solo los hábiles
+          sobreviven. Puedo comprender de dónde proviene su valentía. Sus
+          antorchas brillan en la noche. <br />
 
-          No saben nada sobre mí. Para ellos, solo soy algo a lo que no se quieren enfrentar: una encarnación viviente, andante y combativa de aquello a lo que más temen. Supongo que por eso añadieron la marca a mi nombre. <br>
+          ''¡Papá!'', gritó de repente hacia los aldeanos. ''¡La encontré! ¡La
+          chica que regresó!'' <br />
 
-          Hace diez años, yo solo era Kaisa; muy parecida a Illi, llena de esperanzas por un futuro tan ilimitado como las estrellas en el cielo nocturno. Ese futuro murió el día en el que el Vacío me arrastró. <br>
+          Se dirigen hacia nosotros ahora, con las armas preparadas y fuego en
+          sus ojos. ''¡Illi!'', grita su padre, colocando una flecha en su arco.
+          ''¡Aléjate de esa... cosa!'' <br />
 
-          Las agujas han vuelto. Illi suelta mi mano justo cuando mis armas luminosas se materializan sobre mis brazos. "Ve con él", le digo. "Ve con tu padre". <br>
+          Me voltea a ver, confundida. Por cada chica como Illi, hay otras diez
+          que correrían lo más lejos posible de mí. O peor aún. Sé lo que dice
+          la mayoría de las personas sobre mí. He visto su miedo garabateado en
+          las paredes de barro, grabado en las rocas del barranco. <br />
 
-          "¡Illi, corre!”, su padre suplica. Él jala hacia atrás la cuerda de su arco con manos temblorosas. <br>
+          Cuidado con la chica que regresó como un monstruo. <br />
 
-          "¡No!", grita ella, volteándose hacia mí. "Ya no huyo". <br>
+          No saben nada sobre mí. Para ellos, solo soy algo a lo que no se
+          quieren enfrentar: una encarnación viviente, andante y combativa de
+          aquello a lo que más temen. Supongo que por eso añadieron la marca a
+          mi nombre.
+          <br />
 
-          La guío hacia delante, sin perder de vista a los aldeanos. "No, Illi, tú naciste guerrera. Ellos te necesitan". <br>
+          Hace diez años, yo solo era Kaisa; muy parecida a Illi, llena de
+          esperanzas por un futuro tan ilimitado como las estrellas en el cielo
+          nocturno. Ese futuro murió el día en el que el Vacío me arrastró.
+          <br />
 
-          Después de avanzar unos pasos, se voltea. "¿Qué les digo?" <br>
+          Las agujas han vuelto. Illi suelta mi mano justo cuando mis armas
+          luminosas se materializan sobre mis brazos. "Ve con él", le digo. "Ve
+          con tu padre". <br />
 
-          "Diles... Diles que se preparen". <br>
+          "¡Illi, corre!”, su padre suplica. Él jala hacia atrás la cuerda de su
+          arco con manos temblorosas. <br />
 
-          El Vacío me ha quitado tanto, pero me rehúso a dejar que se lo lleve todo. Estos momentos en los que la bondad y la humanidad resplandecen, en los que la inocencia y la confianza extinguen el miedo, son los que me llenan de esperanza y me indican que podremos derrotar los ríos de veneno eterno que corren debajo del mundo. <br>
+          "¡No!", grita ella, volteándose hacia mí. "Ya no huyo". <br />
 
-          La primera vez que escapé del abismo lo hice por mí misma. <br>
+          La guío hacia delante, sin perder de vista a los aldeanos. "No, Illi,
+          tú naciste guerrera. Ellos te necesitan". <br />
 
-          Tal vez algún día lo haga por ellos. <br>
-      </p>
+          Después de avanzar unos pasos, se voltea. "¿Qué les digo?" <br />
 
-      <img src="./intro-divider-2.png" alt="divider2" >
-      <br>
-      <br>
-      
-      <h2 id="UPV">UNIDAS POR EL VACÍO</h2>
-      <h4>POR DANA LUERY SHAW</h4>
-      <img src="./intro-divider-1.png" alt="divider1">
-      <p>
-        Kai'Sa se asoma por la boca del túnel y siente que está en el borde del mundo. <br>
-        
-        Delante de ella hay un abismo, tan profundo que la luz del sol no llega al fondo. A su alrededor, hay docenas de aberturas hacia otros túneles. Todos están tallados en la piedra que yace muy por debajo de la superficie, que ahora se desmorona y queda expuesta.<br>
-        
-        Alguna vez, este fue el hogar de una vasta colonia de criaturas del Vacío. Estas fueron sus madrigueras, formadas con la arbitrariedad de la materia sin formar. Esquinas cerradas, callejones sin salida, bucles sobre bucles... todos construidos con el único objetivo de ''devorar al mundo''. Ese es el Vacío: máquinas orgánicas irracionales, cuyo único instinto es pelear y consumir y deshacer todo sin pensar en otra cosa más que en el presente. Kai'Sa ha matado suficientes bestias como para saber que no hay nada más en ellas.<br>
-        
-        Pero el túnel en el que se encuentra es diferente. No es una destrucción al azar. Es prácticamente una línea recta que se dirige al norte, una que ella ha seguido por casi cuatro días. Este túnel, este pasadizo, fue hecho con un propósito. Con un objetivo. No tiene sentido...<br>
-        
-        Kai'Sa le encontrará un sentido, empezando por hacia dónde conduce este pasadizo.<br>
-        
-        Hasta ahora, la condujo a este abismo. <br>
-        
-        Vislumbra las aberturas del otro lado. Es difícil decir cuán profundas son. Pero apostaría su segunda piel a que una de ellas forma parte del mismo pasadizo donde está ahora.<br>
-        <br>
-        Mueve los hombros. Su armadura viviente se despierta, pegándose a ella con fuerza. Ha sido su única constante y ha crecido con ella desde que era una niña pequeña. Fue una de las bestias del Vacío que mató a su familia y destruyó su aldea. Cubierta con su coraza, Kai'Sa siempre será vista como un monstruo. Pero sin ella, no podría salvar al mundo del Vacío.
-        <br>
-        Sin ella, no sería nada.
-        <br>
-        Las vainas escamosas de sus hombros se flexionan y los cristales incrustados se iluminan cuando ella apunta a su primer objetivo. El calor de los cristales genera un misil de plasma; ella lo lanza hacia la boca de un túnel de las profundidades. Le toma seis segundos cruzar el abismo. Gigante. Otro segundo, y el misil se estrella contra una curva. Nop. No es lo que busca.
-        <br>
-        Desde aquí, lo único que hace es apuntar y disparar, una y otra vez. La mayoría de los misiles golpean algo después de uno o dos segundos. Pero a Kai'Sa le sobra la paciencia. Seguirá con esto el tiempo que sea necesario.
-        <br>
-        Encuentra el túnel que está buscando justo cuando el sol comienza a caer. Espera a que el misil cruce el abismo y luego empieza a contar. Uno. Dos. Tres.
-        <br>
-        Cuatro. Cinco. Seis. Es este. Ahí está el otro extremo del pasadizo.
-        <br>
-        Sonriendo, dispara un aluvión de misiles alrededor de la abertura para marcarla. El misil anterior sigue viajando... hasta que escucha el chillido horrible del impacto.
-        <br>
-        Repliega las vainas en sus hombros para ocultar la luz que irradian. Espera en silencio que su presa se presente.
-        <br>
-        Otro chillido. Una criatura del Vacío emerge del otro lado del túnel. Kai'Sa lleva años luchando y observando y catalogando criaturas del Vacío. A esta no la ha visto antes. El cuerpo redondo y liso de la criatura, lastimada por el misil, se deforma cuando abre su mandíbula inferior. Tiene la boca llena de dientes traslúcidos y finos como agujas que se extienden en ángulos extraños. Sus flancos se expanden y contraen como si estuviera respirando.
-        <br>
-        U olfateando, piensa ella mientras la criatura se voltea. No tiene ojos, pero aún así puede encontrarme. Apunta mientras el sol se hunde en el horizonte. La criatura del Vacío empieza a... brillar. Algo —¿una lengua? — brota de su boca y emite una tenue luz azulada que le recuerda a las lámparas colgantes en las minas humanas. Jamás vi que una criatura del Vacío hiciera eso. Se percata de que su herida brilla también.
-        <br>
-        Supongo que la llamaré Lámpara. Deja volar un misil. La postura de Lámpara cambia. Suelta un chillido agudo y sostenido, y esquiva el disparo de Kai'Sa. Maldición. Kai'sa prepara otro tiro.
-        <br>
-        Todo el túnel detrás de la criatura brilla con una luz azul. Cientos de Lámparas se unen a la primera, con las bocas abiertas y las lenguas extendidas y brillantes. Kai'sa se obliga a respirar despacio. Se las ha visto peores. Todos en un mismo lugar. Excelente. Kai'sa lanza una ráfaga de misiles con la esperanza de acabar con todas las criaturas de una sola vez.
-        <br>
-        En el tiempo que tardan los misiles en llegar al otro lado, las criaturas se desparraman como polvo y se aferran a las paredes del abismo cuando la ráfaga pasa entre ellas sin lastimarlas.
-        <br>
-        ¿Qué...?
-        <br>
-        Guiados por la Lámpara lastimada, se mueven como un solo ser. En dirección a Kai'Sa.
-        <br>
-        ¿... pero qué?
-        <br>
-        Levanta las manos y dispara rápidamente al enjambre. Consigue darles a algunos, pero no a los necesarios como para reducir sus números. Y ya avanzaron un cuarto del camino hacia ella. Kai'sa mira a su alrededor con desesperación. No hay muchas opciones. Luchar desde su posición actual. Regresar corriendo por el pasadizo. Arriesgarse y saltar al abismo. Intentar trepar y luchar contra ellos en la superficie.
-        <br>
-        Mira hacia arriba, y luego al enjambre. Ya están a mitad de camino. Trepar. Kai'sa lanza cuatro disparos en zigzag sobre la roca: uno para cada par de manos y pies. Usando estos puntos de apoyo para trepar, comienza a subir.
-        <br>
-        Disparar, agarrarse y subir. Disparar, agarrarse y subir. A toda velocidad, Kai'sa se abre camino. Las vainas de sus hombros disparan al enjambre. Están cerca, pero Kai'sa lleva un buen ritmo. Ya está a la mitad del recorrido cuando...
-        <br>
-        Su mano toca arena.
-        <br>
-        Dispara de nuevo. No hay nada para que su misil perfore. Atraviesa la arena, y el agujero se llena de nuevo rápidamente. No hay nada para agarrarse. ¿Puede saltar lo que resta del camino? Con la mandíbula apretada, Kai'Sa se voltea hacia los monstruos. Si va a morir, se llevará con ella a todos los que pueda.
-        <br>
-        De repente, la pared que sostiene a las criaturas se quiebra.
-        <br>
-        Y se desmorona.
-        <br>
-        Cientos de Lámparas caen junto con los escombros, y el abismo se devora sus luces. Solo tres continúan corriendo hacia Kai'Sa. Ese número sí puede manejarlo. Están tan cerca que puede ver las púas en sus lenguas.
-        <br>
-        Tres disparos. Dos Lámparas menos. Queda una.
-        <br>
-        Golpea con su lengua espinosa el costado de Kai'Sa. Sus costillas se fracturan debajo de la armadura cuando se estrella contra la roca. Lucha por respirar mientras el traje cura su herida. Agarrada a la pared con la mano izquierda, Kai'Sa cierra su mano derecha alrededor de la lengua de la criatura, justo debajo de las púas. Brota poder morado. La lengua de la Lámpara se derrite en su mano. Gritando, la criatura retrocede. Kai'Sa apunta.
-        <br>
-        Esta vez, no falla.
-        <br>
-        Bien. Respira. Bien. Siguiente paso. Tiene que encontrar una forma de salir a la superficie.
-        <br>
-        En ese momento, se percata del cubo de piedra que sobresale de la arena.
-        <br>
-        Eso no estaba allí antes. Kai'Sa se estira y lo agarra... tiene el tamaño exacto para su mano. Prueba si aguanta un poco de su peso. Aguanta. Con curiosidad, se inclina a un lado y mira hacia arriba. Más o menos a un brazo de distancia, hay otro de esos cubos de piedra. Dejará las preguntas sobre este cambio de suerte para después.
-        <br>
-        Kai'Sa trepa, un cubo a la vez, hasta que logra salir. Bajo la luz de la luna, mira a su alrededor y no ve ningún punto de referencia, solo dunas y riscos rocosos. Una tormenta de arena se levanta en la distancia. Baja la vista hacia el abismo. Si entrecierra los ojos, casi puede distinguir un brillo...
-        <br>
-        El viento aúlla. La tormenta se acerca rápido. Se voltea para mirarla de frente. En el centro de la tormenta hay...
-        <br>
-        ¿Una chica?</p>
-        <img src="./intro-divider-2.png" alt="divider2">
+          "Diles... Diles que se preparen". <br />
+
+          El Vacío me ha quitado tanto, pero me rehúso a dejar que se lo lleve
+          todo. Estos momentos en los que la bondad y la humanidad resplandecen,
+          en los que la inocencia y la confianza extinguen el miedo, son los que
+          me llenan de esperanza y me indican que podremos derrotar los ríos de
+          veneno eterno que corren debajo del mundo. <br />
+
+          La primera vez que escapé del abismo lo hice por mí misma. <br />
+
+          Tal vez algún día lo haga por ellos. <br />
+        </p>
+
+        <!--Imagen de divisor 2-->
+        <figure>
+          <img
+            src="./Multimedia/intro-divider-2.png"
+            alt="divider2"
+            width="630px"
+          />
+        </figure>
+      </article>
+
+      <br />
+      <br />
+
+      <!--Historia 2-->
+      <article>
+        <!--Titulo segunda historia-->
+        <h2 id="UPV">UNIDAS POR EL VACÍO</h2>
+        <!--Autor-->
+        <h4>POR DANA LUERY SHAW</h4>
+        <figure>
+          <img src="./Multimedia/intro-divider-1.png" alt="divider1" />
+        </figure>
+        <p>
+          Kai'Sa se asoma por la boca del túnel y siente que está en el borde
+          del mundo. <br />
+
+          Delante de ella hay un abismo, tan profundo que la luz del sol no
+          llega al fondo. A su alrededor, hay docenas de aberturas hacia otros
+          túneles. Todos están tallados en la piedra que yace muy por debajo de
+          la superficie, que ahora se desmorona y queda expuesta.<br />
+
+          Alguna vez, este fue el hogar de una vasta colonia de criaturas del
+          Vacío. Estas fueron sus madrigueras, formadas con la arbitrariedad de
+          la materia sin formar. Esquinas cerradas, callejones sin salida,
+          bucles sobre bucles... todos construidos con el único objetivo de
+          ''devorar al mundo''. Ese es el Vacío: máquinas orgánicas
+          irracionales, cuyo único instinto es pelear y consumir y deshacer todo
+          sin pensar en otra cosa más que en el presente. Kai'Sa ha matado
+          suficientes bestias como para saber que no hay nada más en ellas.<br />
+
+          Pero el túnel en el que se encuentra es diferente. No es una
+          destrucción al azar. Es prácticamente una línea recta que se dirige al
+          norte, una que ella ha seguido por casi cuatro días. Este túnel, este
+          pasadizo, fue hecho con un propósito. Con un objetivo. No tiene
+          sentido...<br />
+
+          Kai'Sa le encontrará un sentido, empezando por hacia dónde conduce
+          este pasadizo.<br />
+
+          Hasta ahora, la condujo a este abismo. <br />
+
+          Vislumbra las aberturas del otro lado. Es difícil decir cuán profundas
+          son. Pero apostaría su segunda piel a que una de ellas forma parte del
+          mismo pasadizo donde está ahora.<br />
+          <br />
+          Mueve los hombros. Su armadura viviente se despierta, pegándose a ella
+          con fuerza. Ha sido su única constante y ha crecido con ella desde que
+          era una niña pequeña. Fue una de las bestias del Vacío que mató a su
+          familia y destruyó su aldea. Cubierta con su coraza, Kai'Sa siempre
+          será vista como un monstruo. Pero sin ella, no podría salvar al mundo
+          del Vacío.
+          <br />
+          Sin ella, no sería nada.
+          <br />
+          Las vainas escamosas de sus hombros se flexionan y los cristales
+          incrustados se iluminan cuando ella apunta a su primer objetivo. El
+          calor de los cristales genera un misil de plasma; ella lo lanza hacia
+          la boca de un túnel de las profundidades. Le toma seis segundos cruzar
+          el abismo. Gigante. Otro segundo, y el misil se estrella contra una
+          curva. Nop. No es lo que busca.
+          <br />
+          Desde aquí, lo único que hace es apuntar y disparar, una y otra vez.
+          La mayoría de los misiles golpean algo después de uno o dos segundos.
+          Pero a Kai'Sa le sobra la paciencia. Seguirá con esto el tiempo que
+          sea necesario.
+          <br />
+          Encuentra el túnel que está buscando justo cuando el sol comienza a
+          caer. Espera a que el misil cruce el abismo y luego empieza a contar.
+          Uno. Dos. Tres.
+          <br />
+          Cuatro. Cinco. Seis. Es este. Ahí está el otro extremo del pasadizo.
+          <br />
+          Sonriendo, dispara un aluvión de misiles alrededor de la abertura para
+          marcarla. El misil anterior sigue viajando... hasta que escucha el
+          chillido horrible del impacto.
+          <br />
+          Repliega las vainas en sus hombros para ocultar la luz que irradian.
+          Espera en silencio que su presa se presente.
+          <br />
+          Otro chillido. Una criatura del Vacío emerge del otro lado del túnel.
+          Kai'Sa lleva años luchando y observando y catalogando criaturas del
+          Vacío. A esta no la ha visto antes. El cuerpo redondo y liso de la
+          criatura, lastimada por el misil, se deforma cuando abre su mandíbula
+          inferior. Tiene la boca llena de dientes traslúcidos y finos como
+          agujas que se extienden en ángulos extraños. Sus flancos se expanden y
+          contraen como si estuviera respirando.
+          <br />
+          U olfateando, piensa ella mientras la criatura se voltea. No tiene
+          ojos, pero aún así puede encontrarme. Apunta mientras el sol se hunde
+          en el horizonte. La criatura del Vacío empieza a... brillar. Algo
+          —¿una lengua? — brota de su boca y emite una tenue luz azulada que le
+          recuerda a las lámparas colgantes en las minas humanas. Jamás vi que
+          una criatura del Vacío hiciera eso. Se percata de que su herida brilla
+          también.
+          <br />
+          Supongo que la llamaré Lámpara. Deja volar un misil. La postura de
+          Lámpara cambia. Suelta un chillido agudo y sostenido, y esquiva el
+          disparo de Kai'Sa. Maldición. Kai'sa prepara otro tiro.
+          <br />
+          Todo el túnel detrás de la criatura brilla con una luz azul. Cientos
+          de Lámparas se unen a la primera, con las bocas abiertas y las lenguas
+          extendidas y brillantes. Kai'sa se obliga a respirar despacio. Se las
+          ha visto peores. Todos en un mismo lugar. Excelente. Kai'sa lanza una
+          ráfaga de misiles con la esperanza de acabar con todas las criaturas
+          de una sola vez.
+          <br />
+          En el tiempo que tardan los misiles en llegar al otro lado, las
+          criaturas se desparraman como polvo y se aferran a las paredes del
+          abismo cuando la ráfaga pasa entre ellas sin lastimarlas.
+          <br />
+          ¿Qué...?
+          <br />
+          Guiados por la Lámpara lastimada, se mueven como un solo ser. En
+          dirección a Kai'Sa.
+          <br />
+          ¿... pero qué?
+          <br />
+          Levanta las manos y dispara rápidamente al enjambre. Consigue darles a
+          algunos, pero no a los necesarios como para reducir sus números. Y ya
+          avanzaron un cuarto del camino hacia ella. Kai'sa mira a su alrededor
+          con desesperación. No hay muchas opciones. Luchar desde su posición
+          actual. Regresar corriendo por el pasadizo. Arriesgarse y saltar al
+          abismo. Intentar trepar y luchar contra ellos en la superficie.
+          <br />
+          Mira hacia arriba, y luego al enjambre. Ya están a mitad de camino.
+          Trepar. Kai'sa lanza cuatro disparos en zigzag sobre la roca: uno para
+          cada par de manos y pies. Usando estos puntos de apoyo para trepar,
+          comienza a subir.
+          <br />
+          Disparar, agarrarse y subir. Disparar, agarrarse y subir. A toda
+          velocidad, Kai'sa se abre camino. Las vainas de sus hombros disparan
+          al enjambre. Están cerca, pero Kai'sa lleva un buen ritmo. Ya está a
+          la mitad del recorrido cuando...
+          <br />
+          Su mano toca arena.
+          <br />
+          Dispara de nuevo. No hay nada para que su misil perfore. Atraviesa la
+          arena, y el agujero se llena de nuevo rápidamente. No hay nada para
+          agarrarse. ¿Puede saltar lo que resta del camino? Con la mandíbula
+          apretada, Kai'Sa se voltea hacia los monstruos. Si va a morir, se
+          llevará con ella a todos los que pueda.
+          <br />
+          De repente, la pared que sostiene a las criaturas se quiebra.
+          <br />
+          Y se desmorona.
+          <br />
+          Cientos de Lámparas caen junto con los escombros, y el abismo se
+          devora sus luces. Solo tres continúan corriendo hacia Kai'Sa. Ese
+          número sí puede manejarlo. Están tan cerca que puede ver las púas en
+          sus lenguas.
+          <br />
+          Tres disparos. Dos Lámparas menos. Queda una.
+          <br />
+          Golpea con su lengua espinosa el costado de Kai'Sa. Sus costillas se
+          fracturan debajo de la armadura cuando se estrella contra la roca.
+          Lucha por respirar mientras el traje cura su herida. Agarrada a la
+          pared con la mano izquierda, Kai'Sa cierra su mano derecha alrededor
+          de la lengua de la criatura, justo debajo de las púas. Brota poder
+          morado. La lengua de la Lámpara se derrite en su mano. Gritando, la
+          criatura retrocede. Kai'Sa apunta.
+          <br />
+          Esta vez, no falla.
+          <br />
+          Bien. Respira. Bien. Siguiente paso. Tiene que encontrar una forma de
+          salir a la superficie.
+          <br />
+          En ese momento, se percata del cubo de piedra que sobresale de la
+          arena.
+          <br />
+          Eso no estaba allí antes. Kai'Sa se estira y lo agarra... tiene el
+          tamaño exacto para su mano. Prueba si aguanta un poco de su peso.
+          Aguanta. Con curiosidad, se inclina a un lado y mira hacia arriba. Más
+          o menos a un brazo de distancia, hay otro de esos cubos de piedra.
+          Dejará las preguntas sobre este cambio de suerte para después.
+          <br />
+          Kai'Sa trepa, un cubo a la vez, hasta que logra salir. Bajo la luz de
+          la luna, mira a su alrededor y no ve ningún punto de referencia, solo
+          dunas y riscos rocosos. Una tormenta de arena se levanta en la
+          distancia. Baja la vista hacia el abismo. Si entrecierra los ojos,
+          casi puede distinguir un brillo...
+          <br />
+          El viento aúlla. La tormenta se acerca rápido. Se voltea para mirarla
+          de frente. En el centro de la tormenta hay...
+          <br />
+          ¿Una chica?
+        </p>
+
+        <!--Imagen de divisor 2-->
+        <figure>
+          <img
+            src="./Multimedia/intro-divider-2.png"
+            alt="divider2"
+            width="630px"
+          />
+        </figure>
+      </article>
     </section>
+
+    <!--Pagina relacionada con el contenido de la pagina-->
+    <aside>
+      <!--Subtitulo-->
+      <h3>Visita la pagina de league of legends para mas información</h3>
+      <!--Etiqueta semantica para añadir imagen-->
+      <figure>
+        <!--Imagen que redirige a la pagina oficial de league of legends-->
+        <a href="https://universe.leagueoflegends.com/es_MX/"
+          ><img src="./Multimedia/aside.jpg" width="300px" height="185px"
+        /></a>
+      </figure>
+    </aside>
+
+    <!--Pie de página-->
+    <footer>
+      <!--Primer divisor: datos personales -->
+      <div>
+        <!--Subtitulo-->
+        <h3>Información del autor</h3>
+        <!--Seccion 1 Datos basicos-->
+        <section>
+          <ul>
+            <li>Mariana Paniagua Lopera</li>
+            <li>Universidad de Antioquia</li>
+            <li>mariana.paniagual@udea.edu.co</li>
+          </ul>
+        </section>
+
+        <!--Redes sociales-->
+        <section>
+          <h3>Redes</h3>
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/marianapl15/"
+                ><img
+                  src="./Multimedia/Instagram-Icon.png"
+                  height="50px"
+                  width="50px"
+              /></a>
+            </li>
+            <li>
+              <a href="https://web.facebook.com/marizbest/"
+                ><img
+                  src="./Multimedia/facebook_icono.jpg"
+                  height="50px"
+                  width="50px"
+              /></a>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <!--Divisor 2: Referencias-->
+      <div>
+        <h3>Referencias</h3>
+        <ul>
+          <li>
+            <a href="https://universe.leagueoflegends.com/es_MX/champion/kaisa/"
+              >Kai’Sa: Universo League of legends</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://lan.leagueoflegends.com/es/featured/champion-reveal-kaisa"
+              >Revelacion de campeón: League of legends</a
+            >
+          </li>
+          <li>
+            <a href="https://leagueoflegends.fandom.com/es/wiki/Kai%27Sa"
+              >Kai'sa: Wiki</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>

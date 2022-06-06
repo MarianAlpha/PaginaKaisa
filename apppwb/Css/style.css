@@ -1,0 +1,60 @@
+/* selesctor {propiedad: valor;}*/
+
+/*Universal: para todos*/
+
+* {
+    margin: 5px;
+    padding: 5px;
+    font-family: Arial;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+/* etiquetas */
+
+h1 {
+    margin: 10px;
+    font-weight: bold; /*negrilla*/
+    background-color: rgba(20, 70, 150, 0.2); /*rojo, verde, azaul, transparente */
+}
+
+ul {
+    margin: 50px;
+    background-color: aqua;
+}
+
+li {
+    margin: 15px;
+}
+
+/*multiples selectores */
+
+ul,li {
+    border: dotted 2px
+}
+
+/*descendientes (elementos contenidos contenedor descendiente*/
+
+section p {
+    color:  green !important; /*No importa que, apliquelo*/
+}
+
+/*cambiar con el id*/
+
+#dato1 {
+    background-color: yellow;
+}
+
+/*descendientes directos(elementos contenidos contenedor descendiente*/
+
+section>h2{
+    color: blueviolet;
+}
+
+/*classe .nombre de la clase*/
+
+p + p { /*Un parrafo siempre que este despues de un parrafo*/
+    font-size: 10px;
+}
+
+/*Siempre que tenga la propiedad [lang] o []*/

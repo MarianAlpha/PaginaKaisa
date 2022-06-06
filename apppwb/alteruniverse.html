@@ -1,52 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!--Cabecera-->
     <header>
-        <nav>                                                            <!--Menu de navegacion-->    
-            <a href="./index.html">Inicio</a>                             <!--Redirige al inicio-->
-            <a href="./registro.html">Registro</a>                        <!--Redirige al registro-->
-            <a href="./historia.html">Historia</a>                        <!--Redirige a la historia-->
-            <a href="./more.html">Mas Historias</a>                            <!--Redirige a la region-->
-            <a href="./alteruniverse.html">Universos Alternos</a>         <!--Redirige a los universos-->
-          </nav>
-        <img src="./logo.png" alt="logo" height="60" width="60" vspace="10"/>                  <!--Añade el logo-->
-    
-        <h1>Kai'sa, La Hija del Vacio</h1>                                          <!--Añade el titulo-->
+      <!--Etiqueta semantica para añadir imagen-->
+      <figure>
+        <!--Añade el logo-->
+        <img
+          src="./Multimedia/logo.png"
+          alt="logo"
+          height="60"
+          width="60"
+          vspace="10"
+        />
+      </figure>
+
+      <!--Formulario para registrarse-->
+      <form>
+        <button><a href="./registro.html">sign up</a></button>
+        <input type="search" name="palabraclave" />
+        <input type="submit" name="buscar" />
+      </form>
+
+      <!--Menu de navegacion-->
+      <nav>
+        <li>
+          <!--Redirige al inicio-->
+          <a href="./index.html">Inicio</a>
+        </li>
+        <li>
+          <!--Redirige al registro-->
+          <a href="./registro.html">Registro</a>
+        </li>
+        <li>
+          <!--Redirige a la historia-->
+          <a href="./historia.html">Historia</a>
+        </li>
+        <li>
+          <!--Redirige a mas historias-->
+          <a href="./more.html">Mas Historias</a>
+        </li>
+        <li>
+          <!--Redirige a los universos-->
+          <a href="./alteruniverse.html">Universos Alternos</a>
+        </li>
+      </nav>
+
+      <!--Añade el titulo-->
+      <h1>Kai'sa, La Hija del Vacio</h1>
     </header>
+
+    <!--Informacion del universo alternativo-->
     <section>
+      <!--Titulo-->
+      <h1>UNIVERSO ALTERNATIVO</h1>
 
-        <h1>UNIVERSO ALTERNATIVO</h1>
-        <img src="./kda-logo.png" alt="kda" width="900px" height="394px">
-        <video src="./kaisavideo.mp4" autoplay="1" controls></video>
+      <!--Logo de la banda-->
+      <figure>
+        <img src="./Multimedia/kda-logo.png" alt="kda" width="900px" height="394px" />
+      </figure>
 
-        <table>
-            <tr>
-              <td><strong>Dato</strong></td>
-              <td><strong>Valor</strong></td>
-            </tr>
-            <tr>
-              <td>Edad</td>
-              <td>20 años</td>
-            </tr>
-            <tr>
-              <td>Altura</td>
-              <td>169 cm</td>
-            </tr>
-            <tr>
-              <td>Peso</td>
-              <td>60 Kg</td>
-            </tr>
-            <tr>
-              <td>Estado</td>
-              <td>Viva</td>
-            </tr>
-          </table>
+      <!--Video-->
+      <figure>
+        <video src="./Multimedia/kaisavideo.mp4" autoplay="1" controls></video>
+      </figure>
+
+      <!--Descripcion-->
+      <article>
+        <p>
+          K/DA explotó en la escena musical con su exitosa canción
+          ''POP/STARS''. Los admiradores <br />
+          de K/DA no se cansan de su estilo poco convencional, desde sus colas
+          características (los <br />
+          fans sospechan que son reales) hasta la decoración de otro mundo en su
+          estudio. <br />
+          ''Nuestras canciones tienen un fin: ser fieles a nuestra esencia en
+          todo momento'', dice la <br />
+          vocalista principal Ahri. K/DA quiere que su música llegue a todos los
+          rincones del mundo <br />
+          en una gira global.
+        </p>
+      </article>
+      <br /><br />
+
+      <!--Parte de la discografia-->
+      <article>
+        <h4>VIDEOS DESTACADOS</h4>
+
+        <h2>POP/STARS</h2>
+
+        <!--Video cargadao desde youtube-->
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/UOxkGD8qRB4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+
+        <h2>MORE</h2>
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/3VTkBuxU4yk"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+
+        <h3>DISCOGRAFIA</h3>
+
+        <!--Lista Ordenada-->
+        <ol>
+          <li>
+            <audio src="./Multimedia/KDA _POPSTARS.mp3" controls="1">POP/STARS</audio>
+          </li>
+          <li>
+            <audio src="./Multimedia/KDA _THE_BADDEST.mp3" controls="1">THE BADDEST</audio>
+          </li>
+          <li><audio src="./Multimedia/KDA _MORE .mp3" controls="1">MORE</audio></li>
+          <li>
+            <audio src="./Multimedia/KDA _DRUM_GO_DUM.mp3" controls="1">DRUM GO DUM</audio>
+          </li>
+        </ol>
+      </article>
     </section>
-</body>
+
+    <!--Pagina relacionada con el contenido de la pagina-->
+    <aside>
+      <!--Subtitulo-->
+      <h3>Visita la pagina de league of legends para mas información</h3>
+      <!--Etiqueta semantica para añadir imagen-->
+      <figure>
+        <!--Imagen que redirige a la pagina oficial de league of legends-->
+        <a href="https://universe.leagueoflegends.com/es_MX/"
+          ><img src="./Multimedia/aside.jpg" width="300px" height="185px"
+        /></a>
+      </figure>
+    </aside>
+
+    <!--Pie de página-->
+    <footer>
+      <!--Primer divisor: datos personales -->
+      <div>
+        <!--Subtitulo-->
+        <h3>Información del autor</h3>
+        <!--Seccion 1 Datos basicos-->
+        <section>
+          <ul>
+            <li>Mariana Paniagua Lopera</li>
+            <li>Universidad de Antioquia</li>
+            <li>mariana.paniagual@udea.edu.co</li>
+          </ul>
+        </section>
+
+        <!--Redes sociales-->
+        <section>
+          <h3>Redes</h3>
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/marianapl15/"
+                ><img
+                  src="./Multimedia/Instagram-Icon.png"
+                  height="50px"
+                  width="50px"
+              /></a>
+            </li>
+            <li>
+              <a href="https://web.facebook.com/marizbest/"
+                ><img
+                  src="./Multimedia/facebook_icono.jpg"
+                  height="50px"
+                  width="50px"
+              /></a>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <!--Divisor 2: Referencias-->
+      <div>
+        <h3>Referencias</h3>
+        <ul>
+          <li>
+            <a href="https://universe.leagueoflegends.com/es_MX/champion/kaisa/"
+              >Kai’Sa: Universo League of legends</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://lan.leagueoflegends.com/es/featured/champion-reveal-kaisa"
+              >Revelacion de campeón: League of legends</a
+            >
+          </li>
+          <li>
+            <a href="https://leagueoflegends.fandom.com/es/wiki/Kai%27Sa"
+              >Kai'sa: Wiki</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
